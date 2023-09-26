@@ -6,7 +6,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://hexsus.github.io/rocket-works",
+  site: "https://hexsus.github.io",
+  base: "/rocket-works",
   integrations: [
     tailwind(),
     image({
